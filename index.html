@@ -1,0 +1,193 @@
+
+<header>
+    
+    <img src="img/zaKUMPANJE-WEB-LOGO~2.png"width="110px"height="110" alt="">
+    
+  
+<span style="color: orange; padding: 10px 10px 0 0 ; font-size: 35px; cursor: pointer" onclick="openNav()"> &#9776; </span>
+<div class="nav-bar" id="nav">
+<a class="closebtn" onclick="closeNav()"> &times; </a>
+    <a href="#"> New Releases </a>
+<a href="#">Hot Songs </a>
+    <a href="#"> Hot Artists </a>
+    <a href="#"> Get To Know </a>
+    <a href="#"> Upcoming Events </a>
+    <a href="#"> SignIn</a>
+    <a href="#"> Desktop site </a>
+    <a href="#"> Settings </a>
+
+</div>
+
+
+<script>
+    function openNav()
+    {
+    document.getElementById ("nav").style .width = "250px";
+}
+    function closeNav()
+    {
+    document.getElementById ("nav").style .width = "0";
+}
+</script>
+<style>
+
+    .nav-bar{
+        height: 60%;
+        width: 0;
+        top: 5px;
+        right: 4px;
+        background: #00002f;
+        overflow-x: hidden;
+        position: fixed;
+        padding-top: 30px;
+        transition: 0.5s;
+        border-radius: 4px;
+    }
+    .nav-bar a{
+        color: white;
+        text-decoration: none;
+        transition: 0.5s;
+        font-size: 18px;
+    }
+    a:hover{
+        color: #fff;
+    }
+    a{
+        display: flex;
+        text-align: center;
+        padding: 20px 5px 0 15px;
+    }
+    .nav-bar .closebtn{
+        position: absolute;
+        top: 0;
+        right: 10px;
+        font-size: 25px;
+    }
+    span{
+        display: flex;
+        float: right;
+    }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+       background-color: #000000;
+       color:white;
+    }
+
+    header {
+      background-color: #000000;
+      padding: 10px;
+      color: white;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      text-align:left;
+    }
+
+    section {
+      height: 800px; /* just for demonstration */
+      padding: 20px;
+    }
+   
+    
+    
+    
+</style>
+</head>
+</header>
+<body style=" color: white; font-family:Times New Roman; background-attachment: fixed; ">
+ 
+  
+<h2 style="text-align:left;"><u>Trending Now</u>
+<p>
+    
+<img src="img/Music.jpg" alt="" height="70%"width="100%" style="border: 1px solid #000000;
+ border-radius: 50px; overflow: hidden;">
+ </p>
+<h2 style="text-align:left;"><u>New release</u>
+<p>
+    <center>
+   <div>
+   <img src="img/A1.jpg"width="150px"height="100px" alt="">    
+       <img src="img/A2.jpg"width="150px"height="100px" alt="">    
+       <img src="img/A3.jpg"width="150px"height="100px" alt="">    
+       <img src="img/likkle.jpg"width="150px"height="100px" alt="">    
+       
+       
+       
+       
+   </div> 
+    </center>
+   
+    
+    
+    
+    
+    
+    
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+/* Responsive layout - desktop and mobile */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  padding: 10px;
+  background-color: #ccc;
+  text-align: center;
+}
+
+/* Media query for desktop view*/
+@media screen and (min-width: 768px) {
+  .box {
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    padding: 20px;
+    font-size: 30px;
+  }
+}
+
+/* Media query for mobile view */
+@media screen and (max-width: 767px) {
+  .box {
+    width: 100%;
+    height: 150px;
+    margin: 5px;
+    padding: 5px;
+    font-size: 20px;
+  }
+}
+</style>
+</head>
+<body>
+ 
+  
+
+</body>
+</html>
