@@ -32,7 +32,7 @@
 <style>
 
     .nav-bar{
-        height: 47%;
+        height: 55%;
         width: 0;
         top: 5px;
         right: 4px;
@@ -61,7 +61,7 @@
         position: absolute;
         top: 0;
         right: 10px;
-        font-size: 25px;
+        font-size: 45px;
     }
     span{
         display: flex;
@@ -69,9 +69,10 @@
     }
     body {
       margin: 0;
-      font-family: Arial, sans-serif;
+      
        background-color: #000000;
        color:white;
+       
     }
 
     header {
@@ -90,27 +91,39 @@
       padding: 20px;
     }
    
+     * { box-sizing: border-box; } .slider { width: 300px; text-align: center; overflow: hidden; } .slides { display: flex; overflow-x: auto; scroll-snap-type: x mandatory; scroll-behavior: smooth; -webkit-overflow-scrolling: touch; } .slides::-webkit-scrollbar { width: 10px; height: 10px; } .slides::-webkit-scrollbar-thumb { background: black; border-radius: 10px; } .slides::-webkit-scrollbar-track { background: transparent; } .slides > div { scroll-snap-align: start;  width: 5000px; height: 200px; margin-right: 40px; border-radius: 10px; background: black; transform-origin: right; transform: scale(1); transition: transform 0.5s; position: relative; display: flex; justify-content: center; align-items: center; font-size: 100px; } .slider > a { display: inline-flex; width: 1.5rem; height: 1.5rem; background: white; text-decoration: none; align-items: center; justify-content: center; border-radius: 50%; margin: 0 0 0.5rem 0; position: relative; } .slider  a:active { top: 1px; color: #1c87c9; } .slider > a:focus { background: #eee; } /* Don't need button navigation */ @supports (scroll-snap-type) { .slider a { display: none; }
+    
+     
+             
     
     
     
 </style>
+<style> .content { max-width: 800px; text-align: left; margin: auto; } .simple-ss { width: 350px; height: 350px; background-color: #eeeeee; margin: auto; background-image: url("Music.jpg"); 
+background-size: 50vw 30vh;
+
+animation-name: slide; animation-duration: 10s; animation-direction: normal; animation-timing-function: ease; animation-iteration-count: infinite; } @keyframes slide { 0% { background-position: 0 0; } 16.66% { background-position: 0 0; } 33.32% { background-position: -800px 0; } 49.98% { background-position: -800px 0; } 66.64% { background-position: -1600px 0; } 83.30% { background-position: -1600px 0; } 100% { background-position: 0 0; } } 
+
+
+</style>
+
 </head>
+
 </header>
-<body style=" color: white; font-family:Times New Roman; background-attachment: fixed; ">
- 
+
+<h2 style="text-align:center;"><u>Trending Now</u>
+<br>
+<div class="simple-ss"></div> <div class="content"> <p>   </p> </div>
+<body style=" color: white;font-family:'Bad Script',Cursive; background-attachment: fixed;font-size: 30px; ">
   
-<h2 style="text-align:left;"><u>Trending Now</u>
-<p>
-    
-<img src="Music.jpg" alt="" height="70%"width="100%" style="border: 1px solid #000000;
- border-radius: 50px; overflow: hidden;">
- </p>
-<h2 style="text-align:left;"><u>New release </u>
+  
+<h2 style="text-align:center;"><u>New release </u>
 
 <p>
     <hr>
     <center>
-   <div>
+   <div style=" background-image: linear-gradient(black, rgb(81, 72, 55));
+   }">
    <img src="A1.jpg"width="170px"height="160px" alt="">    
        <img src="A2.jpg"width="170px"height="160px" alt="">    
        <img src="A3.jpg"width="170px"height="160px" alt="">    
@@ -122,11 +135,11 @@
    </div> 
     </center>
    <hr>
-    
-    <h2 style="text-align:left;"><u>Hot Songs</u>
+    <br>
+    <h2 style="text-align:center;"><u>Hot Songs</u>
     <hr>
     <center>
-   <div>
+   <div >
    <img src="A1.jpg"width="170px"height="160px" alt="">    
        <img src="A2.jpg"width="170px"height="160px" alt="">    
        <img src="A3.jpg"width="170px"height="160px" alt="">    
@@ -139,15 +152,32 @@
    </div> 
     </center>
    <hr>
-    <h2 style="text-align:left;"><u>Hot Artists</u>
+    <h2 style="text-align:center;"><u>Hot Artists</u>
     <hr>
-    <div style="background: #2b1b00;">
-    <br>
-    
-    <img src="A3.jpg"width="170px"height="160px" alt="" style="border-radius: 80px;">    
-       <img src="A2.jpg"width="170px"height="160px" alt=""style="border-radius: 80px;">    
-    </div>
-    </body>
+    <div style="back#2b1b00d: black;">
+    <div>
+
+       
+        <div class="slides">  <div id="slide-3"></div> <div id="slide-4"><img src="A3.jpg" alt=""height="160ox" width="170px"style="border-radius: 80px;"></div> <div id="slide-5"><img src="A1.jpg" style="border-radius: 80px;"alt=""height="160ox" width="170px">
+        <div id="slide-4"><img src="A2.jpg" alt=""height="160ox" width="170px"style="border-radius: 80px;"></div>
+        <div id="slide-4"><img src="A3.jpg" alt=""height="160ox" width="170px"style="border-radius: 80px;"></div>
+        <div id="slide-4"><img src="A1.jpg" alt=""height="160ox" width="170px"style="border-radius: 80px;"></div>
+        <div id="slide-4"><img src="A2.jpg" alt=""height="160ox" width="170px"style="border-radius: 80px;"></div>
+        <div id="slide-4"><img src="A3.jpg" alt=""height="160ox" width="170px"style="border-radius: 80px;"></div>
+        <div id="slide-4"><img src="A1.jpg" alt=""height="160ox" width="170px"style="border-radius: 80px;"></div>
+        <div id="slide-4"><img src="A2.jpg" alt=""height="160ox" width="170px"style="border-radius: 80px;"></div>
+        <div id="slide-4"><img src="A3.jpg" alt=""height="160ox" width="170px"style="border-radius: 80px;"></div>
+        <div id="slide-4"><img src="A1.jpg" alt=""height="160ox" width="170px"style="border-radius: 80px;"></div>
+        <div id="slide-4"><img src="A2.jpg" alt=""height="160ox" width="170px"style="border-radius: 80px;"></div>
+        <div id="slide-4"><img src="A3.jpg" alt=""height="160ox" width="170px"style="border-radius: 80px;"></div>
+        <div id="slide-4"><img src="A1.jpg" alt=""height="160ox" width="170px"style="border-radius: 80px;"></div>
+        <div id="slide-4"><img src="A2.jpg" alt=""height="160ox" width="170px"style="border-radius: 80px;"></div>
+        <div id="slide-4"><img src="A3.jpg" alt=""height="160ox" width="170px"style="border-radius: 80px;"></div>    </div> </div> </div>
+         </div>
+         <br>
+<h2 style="text-align:center;"><u>Get To Know</u></h2>
+     
+  
 </html>
 
 
@@ -155,6 +185,58 @@
 
 
 
+
+ 
+<style>
+
+span
+{
+display:flex;
+text-align:center;
+justify-content:center;
+align-items:center;
+min-height:10vh;
+font-size:20px;
+}
+.ring
+{
+position:absolute;
+top:42%;
+left:115px;
+width:120px;
+height:120px;
+border-radius:120px;
+animation:ring 2s linear infinite;
+}
+@keyframes ring{
+0%{
+transform:rotate(0deg);
+box-shadow:1px 5px 2px #e65c00;
+}
+50%{
+transform:rotate(180deg);
+box-shadow:1px 5px 2px blue;
+}
+100%{
+transform:rotate(360deg);
+box-shadow:1px 5px 2px green;
+}
+.ring:before
+{
+position:absolute;
+content:'';
+top:-10px;
+left:0px;
+width:100%;
+height:100%;
+box-shadow:0 0 5px rgba(255,255,255,.3);
+border-radius:100px;
+}
+</style>
+
+
+<div class="center"></div>
+<div class="ring"></div>
 
 
 
@@ -180,7 +262,8 @@
   margin: 10px;
   padding: 10px;
   background-color: #ccc;
-  text-align: center;
+  text-align: left;
+  font-family:'Bad Script',Cursive;
 }
 
 /* Media query for desktop view*/
@@ -208,7 +291,7 @@
 </head>
 <body>
  
-  
+  <header style="background: #454953;"></header>
 
 </body>
 </html>
